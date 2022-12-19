@@ -37,10 +37,10 @@ namespace j11record
             // 
             // button_start
             // 
-            this.button_start.Location = new System.Drawing.Point(477, 26);
-            this.button_start.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_start.Location = new System.Drawing.Point(636, 32);
+            this.button_start.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_start.Name = "button_start";
-            this.button_start.Size = new System.Drawing.Size(93, 26);
+            this.button_start.Size = new System.Drawing.Size(124, 32);
             this.button_start.TabIndex = 0;
             this.button_start.Text = "连接";
             this.button_start.UseVisualStyleBackColor = true;
@@ -48,10 +48,10 @@ namespace j11record
             // 
             // Stop
             // 
-            this.Stop.Location = new System.Drawing.Point(477, 81);
-            this.Stop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Stop.Location = new System.Drawing.Point(636, 101);
+            this.Stop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Stop.Name = "Stop";
-            this.Stop.Size = new System.Drawing.Size(93, 32);
+            this.Stop.Size = new System.Drawing.Size(124, 40);
             this.Stop.TabIndex = 1;
             this.Stop.Text = "断开";
             this.Stop.UseVisualStyleBackColor = true;
@@ -59,21 +59,21 @@ namespace j11record
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(9, 110);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(12, 138);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(452, 62);
+            this.textBox1.Size = new System.Drawing.Size(601, 76);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "点“连接”会连到rtt client";
+            this.textBox1.Text = "点“连接”会连到rtt client,如果运行异常，可以检查程序管理器";
             // 
             // button_sendcmd
             // 
-            this.button_sendcmd.Location = new System.Drawing.Point(477, 134);
-            this.button_sendcmd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_sendcmd.Location = new System.Drawing.Point(636, 168);
+            this.button_sendcmd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_sendcmd.Name = "button_sendcmd";
-            this.button_sendcmd.Size = new System.Drawing.Size(93, 30);
+            this.button_sendcmd.Size = new System.Drawing.Size(124, 38);
             this.button_sendcmd.TabIndex = 4;
             this.button_sendcmd.Text = "Send Command";
             this.button_sendcmd.UseVisualStyleBackColor = true;
@@ -82,14 +82,14 @@ namespace j11record
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 198);
+            this.ClientSize = new System.Drawing.Size(800, 248);
             this.Controls.Add(this.button_sendcmd);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Stop);
             this.Controls.Add(this.button_start);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "J11 Dump";
             this.ResumeLayout(false);
